@@ -1,0 +1,76 @@
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #355C7D;
+    background-image: linear-gradient(-45deg, #C06C84, #6C5B7B, #355C7D,#a01dfd,#096279,#110024);
+    animation       : backgroundMove 10s ease infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes backgroundMove {
+
+    0% {
+        background-position: 0% 50%;
+
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+
+
+    }
+
+}
+
+.item2{
+    background-color:rgba(0, 0, 0, 0.479);
+}
+.item2 h4{
+    font-size:25px;
+}
+
+
+.form-control {
+    background-color: transparent !important;
+}
+
+.body {
+    position: relative;
+}
+
+.body img {
+    position : absolute;
+    right    : 0;
+    top      : 50%;
+    transform: translate(-50%, -50%);
+    width    : 70px;
+}
+
+.body .pointer {
+    cursor     : pointer;
+    font-size  : 35px;
+    font-weight: 900;
+}
+
+.item {
+    height: 400px;
+}
+
+.body2 img {
+    width: 70px;
+}
+
+.item {
+
+    background-color: rgba(51, 51, 51, 0.315);
+    color           : #ccc
+}

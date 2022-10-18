@@ -1,0 +1,93 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 11 -WeatherApp</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container my-5 w-75 mx-auto ">
+        <form>
+            <input type="search" name="" placeholder="Search Your Location Here" class="form-control w-75 d-inline-block " id="search">
+            <button type="submit" id="searchbtn" class="btn  text-white d-inline-block bg-transparent">Search</button>
+        </form>
+        <div class="row align-items-center h-75 " >
+            <div class="col-md-4" id="today-card">
+                <div class="item my-5 rounded-4 shadow-lg">
+                    <div class="header">
+                        <ul class="list-unstyled d-flex justify-content-between p-2 shadow-lg">
+                            <li id="today"></li>
+                            <li id="todayDate"></li>
+                        </ul>
+                    </div>
+                    <div class="body p-3">
+                        <h4 id="city">Cairo</h4>
+                        <p id="degree" class="pointer"></p>
+                        <img alt="" width="" id="icon">
+                        <p id="status">partly Cloudy</p>
+
+                        <i class="fa-solid fa-umbrella px-2 "> </i>
+                        <i id="humidty"> </i>
+                        <i class="fa-solid fa-wind px-2"> </i>
+                        <i id="wind"> </i>
+                        <i class="fa-solid fa-compass px-2"> </i>
+                        <i id="compass"> </i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item my-5 rounded-4 shadow-lg text-center">
+                    <div class="header shadow-lg">
+                        <p class=" p-2 nextday ">Sunday</p>
+                    </div>
+                    <div class="body2 p-3">
+                        <div>
+                            <img src="" class="nextdayicon" alt="">
+                        </div>
+                        <h2 class="max-degree d-inline-block">25</h2>
+                        <h2 class="d-inline-block"><sup>o</sup>C</h2>
+                        <br>
+                        <p class="min-degree d-inline-block">22</p>
+                        <p class="d-inline-block"><sup>o</sup>C</p>
+                        <p class="nextdaystatus">sunny</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item my-5 rounded-4 shadow-lg text-center">
+                    <div class="header shadow-lg">
+                        <p class=" p-2 nextday ">Sunday</p>
+                    </div>
+                    <div class="body2 p-3">
+                        <div>
+                            <img src="" class="nextdayicon" width="80" alt="">
+                        </div>
+                        <h2 class="max-degree d-inline-block">25</h2>
+                        <h2 class="d-inline-block"><sup>o</sup>C</h2>
+                        <br>
+                        <p class="min-degree d-inline-block">22</p>
+                        <p class="d-inline-block"><sup>o</sup>C</p>
+                        <p class="nextdaystatus">sunny</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row" id="myRow"></div>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
